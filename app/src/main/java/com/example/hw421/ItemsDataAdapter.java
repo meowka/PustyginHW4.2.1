@@ -39,11 +39,6 @@ public class ItemsDataAdapter extends BaseAdapter {
         notifyDataSetChanged();
     }
 
-    void removeItem(int position) {
-        items.remove(position);
-        notifyDataSetChanged();
-    }
-
     @Override
     public int getCount() {
         return items.size();
